@@ -1,0 +1,191 @@
+* {
+  font-family: "Monaspace Argon", "Vazir Code";
+  font-size: 13px;
+  font-weight: 400;
+}
+
+window {
+  margin: 10px;
+  background: rgba(30, 30, 46, 0.8);
+  color: white;
+  border: 1px solid #8fd4ff;
+  border-radius: 5px;
+}
+
+window>box {
+  margin: 3px 0;
+}
+
+#workspaces,
+#mode,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#clock,
+#tray,
+#custom-weather,
+#custom-time,
+#custom-pre_media,
+#custom-toggle_media,
+#custom-next_media,
+#custom-media {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+}
+
+#window {
+  border-radius: 20px;
+  color: #9aedfe;
+  padding: 0 12px;
+}
+
+/* Left */
+#custom-fedora {
+  padding-left: 14px;
+  color: #74c7ec;
+  font-size: 17px;
+}
+
+#workspaces {
+  margin-left: 0px;
+  padding-right: 0px;
+}
+
+#workspaces button {
+  color: rgba(217, 216, 216, 0.4);
+  padding: 0 3px 0 0;
+  margin: 0 1px;
+}
+
+#workspaces button.active {
+  color: #cdd6f4;
+}
+
+#workspaces button * {
+  padding: 0;
+  margin: 0;
+}
+
+#custom-pre_media,
+#custom-next_media,
+#custom-toggle_media {
+  color: rgba(191, 217, 231, 0.8);
+  padding: 0 2px;
+}
+
+#custom-pre_media {
+  margin-right: 0;
+  border-radius: 4px 0 0 4px;
+  padding-left: 8px;
+}
+
+#custom-next_media,
+#custom-toggle_media {
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0;
+}
+
+#custom-media {
+  color: rgba(191, 217, 231, 0.8);
+  margin-left: 0;
+  border-radius: 0 4px 4px 0;
+  padding-left: 0;
+}
+
+/* Center */
+
+#custom-weather {
+  color: rgba(191, 217, 231, 0.8);
+  padding-left: 2px;
+  margin-right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+#custom-time {
+  margin: 0;
+  border-radius: 0;
+}
+
+#clock {
+  color: rgba(191, 217, 231, 0.8);
+  margin-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#battery {
+  padding-right: 13px;
+  margin-right: 8px;
+}
+
+#battery.warning {
+  color: rgba(255, 210, 4, 1);
+}
+
+#battery.critical {
+  color: rgba(238, 46, 36, 1);
+}
+
+#battery.charging {
+  color: rgba(217, 216, 216, 1);
+}
+
+#custom-storage {
+  color: #4d4d4d;
+}
+
+#cpu {
+  color: rgba(191, 217, 231, 0.8);
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#memory {
+  color: rgba(191, 217, 231, 0.8);
+  border-radius: 0;
+  margin: 0;
+}
+
+#network {
+  color: rgba(191, 217, 231, 0.8);
+  border-radius: 0;
+  margin: 0;
+}
+
+#pulseaudio {
+  color: rgba(191, 217, 231, 0.8);
+  border-radius: 0;
+  margin: 0;
+}
+
+#battery {
+  color: rgba(191, 217, 231, 0.8);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 0;
+}
+
+#tray {
+  color: #4d4d4d;
+  background: transparent;
+}
+
+#tray>widget>image {
+  margin: 0 4px;
+  opacity: 0.7;
+}
+
+#tray>widget:first-child>image {
+  margin-left: 0;
+}
+
+#tray>widget:last-child>image {
+  margin-right: 0;
+}

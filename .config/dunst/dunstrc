@@ -1,0 +1,25 @@
+[global]
+separator_color= "#13273F"
+font = Vazir Code 12
+icon_theme = MoreWaita
+enable_recursive_icon_lookup = true
+class = dunst
+title = dunst
+corner_radius = 12
+padding = 4
+offset = 20x20
+
+[urgency_low]
+background = "#1E1E2E80"
+foreground = "#CDD6F4"
+frame_color = "#13273f"
+
+[urgency_normal]
+background = "#1E1E2E90"
+foreground = "#CDD6F4"
+frame_color = "#13273f"
+
+[urgency_critical]
+background = "#1E1E2E90"
+foreground = "#CDD6F4"
+frame_color = "#13273f"
